@@ -1,3 +1,6 @@
+
+/* ---------------------------------------Main Home Page ---------------------------------------*/
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -168,6 +171,25 @@ div.my-name-logo {
   opacity: 0.7;
 }
 
+.footer {
+  color: black;
+  background-color: #CBFA49;
+  font-family: Arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* -----------------------------About me page-------------------------------------*/
+
 div.my-name-logo-about {
   margin-top: 100px;
 }
@@ -191,38 +213,6 @@ div.my-name-logo-about {
 }
 
 .job-title-under-name-about {
-  color: #CBFA49;
-  font-family: Arial;
-  font-size: 10px;
-  margin-left: 73px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  letter-spacing: 9px;
-}
-
-div.my-name-logo-education {
-  margin-top: 100px;
-}
-
-.my-Fname-education {
-  color: white;
-  font-family: Arial;
-  font-size: 35px;
-  margin-left: 70px;
-  margin-bottom: 0px;
-  margin-top: 20px;
-}
-
-.my-Lname-education {
-  color: white;
-  font-family: Montserrat;
-  font-size: 40px;
-  margin-left: 70px;
-  margin-top: -10px;
-  margin-bottom: 0px;
-}
-
-.job-title-under-name-education {
   color: #CBFA49;
   font-family: Arial;
   font-size: 10px;
@@ -265,25 +255,6 @@ div.main-lower-layout {
   height: 60vh;
 }
 
-div.top-div-field-of-study {
-  margin-top: 70px;
-}
-
-.education-heading {
-  font-family: Montserrat;
-  font-size: 40px;
-  color: #CBFA49;
-  text-align: center;
-}
-
-.field-of-study {
-  font-family: Arial;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 0px;
-}
-
 div.professional-skills {
   width: 500px;
   display: inline-block;
@@ -310,83 +281,6 @@ div.hobbies-interests {
   text-align: center;
 }
 
-div.grades-div {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
-  display: flex;
-  align-items: flex-start;
-}
-
-div.left-div-year2 {
-  width: 33.3%;
-  display: inline-block;
-  margin-top: 0px;
-  margin-bottom: 100px;
-}
-
-.year2-heading {
-  font-family:Montserrat;
-  color: #CBFA49;
-}
-
-.year2-content {
-  font-family: Arial;
-  color: white;
-  line-height: 35px;
-}
-
-div.middle-div-year1 {
-  width: 33.3%;
-  display: inline-block;
-  text-align: center;
-}
-
-.year1-heading {
-  font-family: Montserrat;
-  color: #CBFA49;
-}
-
-.year1-content {
-  color: white;
-  font-family: Arial;
-  line-height: 35px;
-}
-
-div.right-div-Alevel {
-  width: 33.3%;
-  display: inline-block;
-  text-align: right;
-}
-
-.Alevel-heading {
-  font-family: Montserrat ;
-  color: #CBFA49;
-}
-
-.Alevel-content {
-  font-family: Arial;
-  color: white;
-  line-height: 35px;
-}
-
-.footer {
-  color: black;
-  background-color: #CBFA49;
-  font-family: Arial;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 .footer-about {
   color: black;
   background-color: #CBFA49;
@@ -401,6 +295,149 @@ div.right-div-Alevel {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+/*---------------------------------------Education page----------------------------------------*/
+div.my-name-logo-education {
+  margin-top: 100px;
+}
+
+.my-Fname-education {
+  color: white;
+  font-family: Arial;
+  font-size: 35px;
+  margin-left: 70px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.my-Lname-education {
+  color: white;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.job-title-under-name-education {
+  color: #CBFA49;
+  font-family: Arial;
+  font-size: 10px;
+  margin-left: 73px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 9px;
+}
+
+div.top-div-field-of-study {
+  margin-top: 70px;
+}
+
+.education-heading {
+  font-family: Montserrat;
+  font-size: 40px;
+  color: #CBFA49;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.field-of-study {
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  line-height: 40px;
+}
+
+div.grades-div {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+
+div.left-div-year2 {
+  width: 750px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 60px;
+  /*background-color: aqua;*/
+}
+
+.year2-heading {
+  font-family:Montserrat;
+  color: #CBFA49;
+}
+
+.year2-content {
+  font-family: Arial;
+  color: white;
+  line-height: 35px;
+}
+
+div.middle-left-div-year1 {
+  width: 650px;
+  display: inline-block;
+  text-align: left;
+  /*background-color: aqua;*/
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.year1-heading {
+  font-family: Montserrat;
+  color: #CBFA49;
+}
+
+.year1-content {
+  color: white;
+  font-family: Arial;
+  line-height: 35px;
+}
+
+div.middle-right-div-Alevel {
+  width: 300px;
+  display: inline-block;
+  text-align: left;
+  /*background-color: aqua;*/
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.Alevel-heading {
+  font-family: Montserrat ;
+  color: #CBFA49;
+}
+
+.Alevel-content {
+  font-family: Arial;
+  color: white;
+  line-height: 35px;
+}
+
+div.right-div-gcse {
+  width: 300px;
+  display: inline-block;
+  text-align: left;
+  /*background-color: aqua;*/
+  margin-left: 10px;
+}
+
+.gcse-heading {
+  font-family: Montserrat;
+  color: #CBFA49;
+}
+
+.gcse-content {
+  font-family: Arial;
+  color: white;
+  line-height: 35px;
 }
 
 .footer-education {
