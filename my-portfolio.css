@@ -1,6 +1,7 @@
 
 /* ---------------------------------------Main Home Page ---------------------------------------*/
-
+@media only screen and (min-width: 1024px){
+  
 .nav-bar {
   position: fixed;
   top: 0;
@@ -90,7 +91,7 @@ div.container {
 div.my-name-logo {
   position: relative;
   top: 20%;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .profile-pic {
@@ -98,7 +99,7 @@ div.my-name-logo {
   height: 500px;
   border-radius: 50%;
   right: 50px;
-  top: 0%;
+  top: 100px;
   object-fit: cover;
   position: absolute;
 }
@@ -354,19 +355,26 @@ div.top-div-field-of-study {
 div.grades-div {
   margin-top: 150px;
   margin-bottom: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+div.grades-top-div {
+  display: flex;
+  height: 800px;
+  margin-right: 100px;
 }
 
 div.left-div-year2 {
-  width: 750px;
+  width: 200px;
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 100px;
-  margin-left: 0px;
-  margin-right: 60px;
+  margin-left: 30px;
+  margin-right: 100px;
   /*background-color: aqua;*/
 }
 
@@ -382,11 +390,11 @@ div.left-div-year2 {
 }
 
 div.middle-left-div-year1 {
-  width: 650px;
+  width: 250px;
   display: inline-block;
   text-align: left;
   /*background-color: aqua;*/
-  margin-left: 0px;
+  margin-left: 100px;
   margin-right: 0px;
 }
 
@@ -401,13 +409,19 @@ div.middle-left-div-year1 {
   line-height: 35px;
 }
 
+div.grades-bottom-div {
+  display: flex;
+  height: 800px;
+  margin-left: 100px;
+}
+
 div.middle-right-div-Alevel {
-  width: 300px;
+  width: 200px;
   display: inline-block;
   text-align: left;
   /*background-color: aqua;*/
   margin-left: 0px;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .Alevel-heading {
@@ -422,11 +436,11 @@ div.middle-right-div-Alevel {
 }
 
 div.right-div-gcse {
-  width: 300px;
+  width: 200px;
   display: inline-block;
   text-align: left;
   /*background-color: aqua;*/
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 .gcse-heading {
@@ -455,4 +469,529 @@ div.right-div-gcse {
   bottom: 0;
   width: 100%;
 }
+}
 
+/* ------------ PHONE SCREEN SIZE ------------*/
+/*------------ HOME PAGE -------------*/
+@media only screen and (max-width: 760px){
+
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+    width: 100%;
+    background-color: #151515;
+    margin-left: -10px;
+    height: 10vh;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .nav-bar-title {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+    letter-spacing: 3px;
+    width: 150px;
+    margin-right: 0px;
+  }
+  
+  .portfolio-word {
+    color: #CBFA49;
+  }
+
+  .home-page {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .about-me {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .education {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 25px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  div.spacer {
+    width: 100%;
+    height: 70px;
+  }
+
+  div.container {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+
+  .my-Fname {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .my-Lname {
+    color: white;
+    font-family: Montserrat;
+    font-size: 60px;
+    margin-left: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+  }
+  
+  .job-title-under-name {
+    color: #CBFA49;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 14px;
+  }
+
+  .resume {
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    transition: background-color 0.25s, color 0.25s;
+  }
+
+  div.img-container {
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+  }
+
+  .img-container .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 60px;
+  }
+
+  div.my-name-logo {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .footer {
+    color: black;
+    background-color: #CBFA49;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* -----------ABOUT PAGE-----------*/
+
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+    width: 100%;
+    background-color: #151515;
+    margin-left: -10px;
+    height: 10vh;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .nav-bar-title {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+    letter-spacing: 3px;
+    width: 150px;
+    margin-right: 0px;
+  }
+
+  .portfolio-word {
+    color: #CBFA49;
+  }
+
+  .home-page {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .about-me {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .education {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 25px;
+    background-color: transparent;
+    transition: color 0.25s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  div.my-name-logo-about {
+    margin-top: 150px;
+  }
+  
+  .my-Fname-about {
+    color: white;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  
+  .my-Lname-about {
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  
+  .job-title-under-name-about {
+    color: #CBFA49;
+    font-family: Arial;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 9px;
+  }
+  
+  div.main-upper-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .profile-heading {
+   font-family: Montserrat;
+   color: #CBFA49;
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 20px;
+  }
+  
+  .profile-content {
+    font-family: Arial;
+    color: white;
+    width: 90%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 20px;
+  }
+  
+  div.main-lower-layout {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+  }
+  
+  div.professional-skills {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial;
+    color: white;
+    span {color: white;}
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .prof-skills-heading {
+    font-family: Montserrat;
+    color: #CBFA49;
+  }
+  
+  div.hobbies-interests {
+    display: inline-block;
+    font-family: Montserrat;
+    width: 50%;
+    color: #CBFA49;
+    vertical-align: top;
+    p {color: white;}
+    p {font-family: Arial;}
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .footer-about {
+    color: black;
+    background-color: #CBFA49;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /*--------------- EDUCATION PAGE ------------*/
+  div.my-name-logo-education {
+    margin-top: 150px;
+  }
+  
+  .my-Fname-education {
+    color: white;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  
+  .my-Lname-education {
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  
+  .job-title-under-name-education {
+    color: #CBFA49;
+    font-family: Arial;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 9px;
+  }
+  
+  div.top-div-field-of-study {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .education-heading {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #CBFA49;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .field-of-study {
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 40px;
+  }
+  
+  div.grades-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+  }
+
+  div.grades-top-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div.left-div-year2 {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  
+  .year2-heading {
+    font-size: 15px;
+    font-family:Montserrat;
+    color: #CBFA49;
+    height: fit-content;
+    width: 150px;
+  }
+  
+  .year2-content {
+    font-family: Arial;
+    font-size: 10px;
+    color: white;
+    line-height: 15px;
+    width: 100px;
+  }
+  
+  div.middle-left-div-year1 {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .year1-heading {
+    font-size: 15px;
+    font-family: Montserrat;
+    color: #CBFA49;
+    width: 150px;
+
+  }
+  
+  .year1-content {
+    color: white;
+    font-family: Arial;
+    line-height: 15px;
+    font-size: 10px;
+  }
+
+  div.grades-bottom-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div.middle-right-div-Alevel {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  
+  .Alevel-heading {
+    font-family: Montserrat ;
+    color: #CBFA49;
+  }
+  
+  .Alevel-content {
+    font-family: Arial;
+    color: white;
+    line-height: 20px;
+    font-size: 10px;
+  }
+  
+  div.right-div-gcse {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .gcse-heading {
+    font-family: Montserrat;
+    color: #CBFA49;
+  }
+  
+  .gcse-content {
+    font-family: Arial;
+    color: white;
+    line-height: 20px;
+    font-size: 10px;
+  }
+  
+  .footer-education {
+    color: black;
+    background-color: #CBFA49;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
